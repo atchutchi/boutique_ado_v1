@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-8t!=!#+0tc9ej&3*u)yobesiudczcl9u6ve#+$@)zj5-&^&1$8
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-atchutchi-boutique-ado-v-9kp8qqz8ih.us2.codeanyapp.com', '8000-atchutchi-boutiqueadov1-bws9patdf57.ws-eu107.gitpod.io']
+ALLOWED_HOSTS = ['8000-atchutchi-boutique-ado-v-9kp8qqz8ih.us2.codeanyapp.com', '8000-atchutchi-boutiqueadov1-5cidq1zvan3.ws-eu108.gitpod.io']
 
 
 # Application definition
