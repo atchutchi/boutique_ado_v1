@@ -12,6 +12,8 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 
 from pathlib import Path
 import os
+import dj_database_url
+
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -27,7 +29,7 @@ SECRET_KEY = 'django-insecure-8t!=!#+0tc9ej&3*u)yobesiudczcl9u6ve#+$@)zj5-&^&1$8
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-atchutchi-boutique-ado-v-9kp8qqz8ih.us2.codeanyapp.com', '8000-atchutchi-boutiqueadov1-5cidq1zvan3.ws-eu108.gitpod.io']
+ALLOWED_HOSTS = ['boutique-app-c4135d1d8e3a.herokuapp.com/', '8000-atchutchi-boutiqueadov1-5cidq1zvan3.ws-eu108.gitpod.io']
 
 
 # Application definition
@@ -133,6 +135,8 @@ else:
             'NAME': BASE_DIR / 'db.sqlite3',
         }
     }
+
+
 
 
 # Password validation
